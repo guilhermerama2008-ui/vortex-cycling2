@@ -1,0 +1,1248 @@
+/* =========================
+   ETIQUETAS DOS PRODUTOS
+========================= */
+
+
+.etiqueta{
+
+    display:inline-block;
+    background:#111;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+/* =========================
+   PESQUISA DE PRODUTOS
+========================= */
+
+
+#pesquisaProduto{
+
+    width:80%;
+    max-width:500px;
+    display:block;
+    margin:20px auto 30px;
+    padding:15px 20px;
+    border-radius:30px;
+    border:1px solid #ccc;
+    font-size:16px;
+
+}
+
+
+
+
+
+/* =========================
+   CATEGORIAS
+========================= */
+
+
+.categorias{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+
+}
+
+
+.categorias button{
+
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+
+}
+
+
+
+
+
+/* =========================
+   PRODUTOS
+========================= */
+
+
+.products{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+
+}
+
+
+
+.product-card{
+
+    background:#151515;
+    padding:25px;
+    border-radius:20px;
+    width:280px;
+    text-align:center;
+    transition:0.3s;
+
+}
+
+
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.product-card img{
+
+    width:100%;
+    height:220px;
+    object-fit:contain;
+    border-radius:15px;
+
+}
+
+
+
+.product-card a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+
+
+.product-card strong{
+
+    display:block;
+    font-size:24px;
+    margin:15px 0;
+
+}
+
+
+
+
+
+/* =========================
+   BOTOES
+========================= */
+
+
+button{
+
+    background:#000;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+
+}
+
+
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+
+/* =========================
+   PRODUTO INDIVIDUAL
+========================= */
+
+
+.produto-detalhe{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    padding:60px;
+
+}
+
+
+
+.produto-detalhe img{
+
+    width:400px;
+    height:400px;
+    object-fit:contain;
+
+}
+
+
+
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+
+@media(max-width:768px){
+
+
+    .produto-detalhe{
+
+        flex-direction:column;
+
+    }
+
+
+    .produto-detalhe img{
+
+        width:300px;
+        height:300px;
+
+    }
+
+
+    .products{
+
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+
+}
+/* =========================
+   PREÇOS E PROMOÇÕES
+========================= */
+
+
+.preco{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+    margin:15px 0;
+
+}
+
+
+
+.preco-antigo{
+
+    text-decoration:line-through;
+    color:#888;
+    font-size:16px;
+
+}
+
+
+
+.desconto{
+
+    background:#000;
+    color:white;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:bold;
+
+}
+
+
+
+/* =========================
+   CARTÕES DE PRODUTO
+========================= */
+
+
+.product-card{
+
+    position:relative;
+    overflow:hidden;
+
+}
+
+
+
+.product-card strong{
+
+    font-size:24px;
+    display:block;
+
+}
+
+
+
+.product-card button{
+
+    margin-top:15px;
+
+}
+
+
+
+/* =========================
+   ETIQUETAS
+========================= */
+
+
+.etiqueta{
+
+    display:inline-block;
+    background:#111;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:15px;
+
+}
+
+
+
+/* =========================
+   CATEGORIAS
+========================= */
+
+
+.categorias{
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:30px 0;
+    flex-wrap:wrap;
+
+}
+
+
+
+.categorias button{
+
+    padding:12px 25px;
+    border-radius:30px;
+
+}
+
+
+
+/* =========================
+   PESQUISA
+========================= */
+
+
+#pesquisaProduto{
+
+    width:80%;
+    max-width:500px;
+    display:block;
+    margin:20px auto;
+    padding:15px 20px;
+    border-radius:30px;
+    border:1px solid #ccc;
+    font-size:16px;
+
+}
+
+
+
+/* =========================
+   EFEITOS
+========================= */
+
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+.product-card img{
+
+    transition:0.3s;
+
+}
+
+
+.product-card:hover img{
+
+    transform:scale(1.05);
+
+}
+/* =========================
+   CHECKOUT
+========================= */
+
+
+.checkout{
+
+    max-width:700px;
+    margin:60px auto;
+    padding:40px;
+    background:#151515;
+    border-radius:25px;
+    text-align:center;
+
+}
+
+
+
+.checkout h1{
+
+    font-size:36px;
+    margin-bottom:30px;
+
+}
+
+
+
+.checkout form{
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+
+.checkout input,
+.checkout select{
+
+    padding:15px;
+    border-radius:15px;
+    border:none;
+    font-size:16px;
+
+}
+
+
+
+.checkout button{
+
+    margin-top:20px;
+    font-size:18px;
+
+}
+
+
+
+#resumoCheckout{
+
+    margin-bottom:30px;
+    padding:20px;
+    border-radius:15px;
+    background:#222;
+
+}
+/* =========================
+   MOBILE
+========================= */
+
+
+@media(max-width:768px){
+
+
+header{
+
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+
+nav{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+
+
+.logo{
+
+    font-size:26px;
+
+}
+
+
+
+.hero{
+
+    text-align:center;
+    padding:40px 20px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:38px;
+
+}
+
+
+
+.products{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+
+.product-card{
+
+    width:85%;
+
+}
+
+
+
+.produto-detalhe{
+
+    padding:30px 15px;
+
+}
+
+
+
+.produto-detalhe img{
+
+    width:280px;
+    height:280px;
+
+}
+
+
+
+.checkout{
+
+    width:85%;
+    padding:25px;
+
+}
+
+
+
+.categorias button{
+
+    width:100%;
+
+}
+
+
+
+}
+/* =========================
+   LOGO NO HEADER
+========================= */
+
+
+.logo-area{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+
+
+.logo-area img{
+
+    width:45px;
+    height:45px;
+    object-fit:contain;
+
+}
+
+
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+
+}
+
+
+
+.logo span{
+
+    color:#888;
+
+}
+/* =========================
+   HEADER PREMIUM
+========================= */
+
+
+header{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#111;
+
+}
+
+
+
+nav{
+
+    display:flex;
+    gap:25px;
+
+}
+
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+
+}
+
+
+
+nav a:hover{
+
+    color:#aaa;
+
+}
+
+
+
+.cart-icon{
+
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+
+}
+
+
+
+.logo-area img{
+
+    transition:0.3s;
+
+}
+
+
+
+.logo-area img:hover{
+
+    transform:rotate(10deg) scale(1.1);
+
+}
+/* =========================
+   PAGINA 404
+========================= */
+
+
+.erro{
+
+    text-align:center;
+    padding:100px 20px;
+
+}
+
+
+
+.erro h1{
+
+    font-size:120px;
+    margin:0;
+
+}
+
+
+
+.erro h2{
+
+    font-size:35px;
+
+}
+/* =========================
+   LOGO HEADER
+========================= */
+
+.logo-area{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+
+.logo-area img{
+
+    width:45px;
+    height:45px;
+    object-fit:contain;
+
+}
+
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+
+}
+
+
+.logo span{
+
+    color:#888;
+
+}
+
+
+
+/* =========================
+   HEADER PREMIUM
+========================= */
+
+
+header{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#111;
+
+}
+
+
+nav{
+
+    display:flex;
+    gap:25px;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+
+nav a:hover{
+
+    color:#aaa;
+
+}
+
+
+.cart-icon{
+
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+
+}
+
+
+
+/* =========================
+   CARRINHO
+========================= */
+
+
+.carrinho{
+
+    max-width:900px;
+    margin:50px auto;
+    padding:30px;
+    text-align:center;
+
+}
+
+
+.item-carrinho{
+
+    display:flex;
+    align-items:center;
+    gap:25px;
+    background:#151515;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:20px;
+
+}
+
+
+.item-carrinho img{
+
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    background:white;
+    border-radius:15px;
+
+}
+
+
+
+/* =========================
+   CHECKOUT
+========================= */
+
+
+.checkout{
+
+    max-width:700px;
+    margin:60px auto;
+    padding:40px;
+    background:#151515;
+    border-radius:25px;
+    text-align:center;
+
+}
+
+
+.checkout form{
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+.checkout input,
+.checkout select,
+.checkout textarea{
+
+    padding:15px;
+    border-radius:15px;
+    border:none;
+
+}
+
+
+
+/* =========================
+   RESUMO CHECKOUT
+========================= */
+
+
+.linha-resumo{
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-bottom:15px;
+
+}
+
+
+.linha-resumo img{
+
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    background:white;
+    border-radius:10px;
+
+}
+
+
+
+/* =========================
+   PAGINA 404
+========================= */
+
+
+.erro{
+
+    text-align:center;
+    padding:100px 20px;
+
+}
+
+
+.erro h1{
+
+    font-size:120px;
+    margin:0;
+
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+
+@media(max-width:768px){
+
+
+header{
+
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+nav{
+
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+
+.item-carrinho{
+
+    flex-direction:column;
+
+}
+
+
+.carrinho{
+
+    width:90%;
+
+}
+
+
+}
+/* =========================
+   PAGINA OBRIGADO
+========================= */
+
+
+.obrigado{
+
+    text-align:center;
+    padding:80px 20px;
+
+}
+
+
+.obrigado h1{
+
+    font-size:45px;
+
+}
+
+
+
+.caixa-encomenda{
+
+    background:#151515;
+    max-width:500px;
+    margin:40px auto;
+    padding:30px;
+    border-radius:25px;
+
+}
+/* =========================
+   RASTREAR ENCOMENDA
+========================= */
+
+
+.rastrear{
+
+    max-width:600px;
+    margin:60px auto;
+    padding:40px;
+    text-align:center;
+    background:#151515;
+    border-radius:25px;
+
+}
+
+
+
+.rastrear input{
+
+    width:80%;
+    padding:15px;
+    margin:20px 0;
+    border-radius:15px;
+    border:none;
+    font-size:16px;
+
+}
+
+
+
+.rastrear button{
+
+    padding:15px 30px;
+    font-size:16px;
+
+}
+
+
+
+#resultadoRastreio{
+
+    margin-top:30px;
+    padding:20px;
+    border-radius:15px;
+    background:#222;
+
+}
+/* =========================
+   PAGAMENTOS
+========================= */
+
+
+.pagamentos{
+
+    background:#222;
+    padding:20px;
+    border-radius:20px;
+    text-align:left;
+    margin:20px 0;
+
+}
+
+
+.pagamentos label{
+
+    display:block;
+    padding:12px;
+    cursor:pointer;
+
+}
+
+
+.pagamentos input{
+
+    margin-right:10px;
+
+}
+/* =========================
+   MENU MOBILE PREMIUM
+========================= */
+
+
+@media(max-width:768px){
+
+
+header{
+
+    padding:20px;
+    position:relative;
+
+}
+
+
+
+.logo-area{
+
+    justify-content:center;
+
+}
+
+
+
+nav{
+
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin-top:20px;
+
+}
+
+
+
+nav a{
+
+    font-size:18px;
+
+}
+
+
+
+.cart-icon{
+
+    margin-top:10px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:35px;
+
+}
+
+
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+
+
+button{
+
+    width:90%;
+    max-width:300px;
+
+}
+
+
+}
+/* =========================
+   COOKIES
+========================= */
+
+
+#cookies{
+
+position:fixed;
+bottom:20px;
+left:20px;
+right:20px;
+background:#111;
+color:white;
+padding:20px;
+border-radius:20px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:15px;
+z-index:999;
+
+}
+
+
+#cookies a{
+
+color:white;
+
+}
+/* =========================
+   FOOTER PREMIUM
+========================= */
+
+
+footer{
+
+    background:#111;
+    color:white;
+    padding:40px 20px;
+    margin-top:60px;
+
+}
+
+
+
+.footer-container{
+
+    max-width:1100px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+
+}
+
+
+
+.footer-col h3{
+
+    margin-bottom:15px;
+
+}
+
+
+
+.footer-col a{
+
+    display:block;
+    color:#bbb;
+    text-decoration:none;
+    margin-bottom:10px;
+
+}
+
+
+
+.footer-col a:hover{
+
+    color:white;
+
+}
+
+
+
+.footer-bottom{
+
+    text-align:center;
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid #333;
+    color:#aaa;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+.footer-container{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+}
